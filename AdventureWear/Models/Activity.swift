@@ -18,7 +18,6 @@ enum Activity: String, CaseIterable, Identifiable, Codable {
                 ActivityField(key: "hands",       label: "Hands",              placeholder: "e.g. gloves, hand warmers"),
                 ActivityField(key: "feet",        label: "Feet",               placeholder: "e.g. light socks, rain shoes"),
                 ActivityField(key: "notes",       label: "Outcome / Notes",    placeholder: "e.g. comfortable; next time wear heavier socks"),
-                ActivityField(key: "courseName",  label: "Course Name",        placeholder: "e.g. Pebble Beach"),
             ]
         case .running:
             return [

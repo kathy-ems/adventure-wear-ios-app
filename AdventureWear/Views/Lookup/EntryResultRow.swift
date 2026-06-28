@@ -70,7 +70,6 @@ struct EntryResultRow: View {
     private var contextLine: some View {
         let parts: [String] = [
             entry.timeOfDay,
-            entry.courseName,
             entry.humidity.map { "Humidity \(Int($0.rounded()))%" },
         ].compactMap { $0 }
 

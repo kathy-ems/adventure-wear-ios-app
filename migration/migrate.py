@@ -21,7 +21,7 @@ COLUMNS = [
     'timestamp', 'activity', 'temp', 'feelsLike', 'conditions', 'wind', 'humidity',
     'timeOfDay', 'teeTime', 'lowTemp', 'highTemp', 'wetGround',
     'outerwear', 'topLong', 'topShort', 'bottoms', 'head', 'hands', 'feet',
-    'notes', 'courseName'
+    'notes'
 ]
 
 
@@ -60,7 +60,6 @@ def map_running(row):
         'hands':      'mitts'            if str(row.get('mits', '')).strip().lower() == 'x' else '',
         'feet':       '',
         'notes':      '',
-        'courseName': '',
     }
 
 
@@ -90,7 +89,6 @@ def map_golf(row):
         'hands':      row.get('Hands', ''),
         'feet':       row.get('Feet', ''),
         'notes':      row.get('Outcome', ''),
-        'courseName': row.get('Course_name', ''),
     }
 
 

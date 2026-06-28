@@ -14,13 +14,12 @@ struct OutfitEntry: Identifiable {
     let wetGround: String?
     let clothing: [String: String]
     let notes: String?
-    let courseName: String?
     let timestamp: String?
     var tempDelta: Double = 0
 
     // Non-empty clothing fields in schema order, excluding meta fields
     var filledClothing: [(label: String, value: String)] {
-        let exclude = Set(["notes", "courseName"])
+        let exclude = Set(["notes"])
         return activity.schema
             .filter { !exclude.contains($0.key) }
             .compactMap { field -> (label: String, value: String)? in
@@ -51,7 +50,6 @@ extension OutfitEntry {
         self.highTemp = Double(dict["highTemp"] ?? "")
         self.wetGround = dict["wetGround"].nonEmpty
         self.notes = dict["notes"].nonEmpty
-        self.courseName = dict["courseName"].nonEmpty
         self.timestamp = dict["timestamp"].nonEmpty
 
         let clothingKeys = ["outerwear", "topLong", "topShort", "bottoms", "head", "hands", "feet"]
