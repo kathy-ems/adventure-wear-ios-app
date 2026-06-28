@@ -36,8 +36,22 @@ enum Activity: String, CaseIterable, Identifiable, Codable {
 
     var activityWeatherFields: [ActivityWeatherField] {
         switch self {
-        case .golf:    return [.teeTime, .lowTemp, .highTemp, .wetGround]
+        case .golf:    return [.timeOfDay, .lowTemp, .highTemp, .wetGround]
         case .running: return [.timeOfDay]
+        }
+    }
+
+    var timeOfDayLabel: String {
+        switch self {
+        case .golf:    return "Tee Time"
+        case .running: return "Time of Run"
+        }
+    }
+
+    var timeOfDayPlaceholder: String {
+        switch self {
+        case .golf:    return "e.g. 9:00 AM"
+        case .running: return "e.g. 3:00 PM"
         }
     }
 }
@@ -50,5 +64,5 @@ struct ActivityField: Identifiable {
 }
 
 enum ActivityWeatherField: Hashable {
-    case timeOfDay, teeTime, lowTemp, highTemp, wetGround
+    case timeOfDay, lowTemp, highTemp, wetGround
 }

@@ -19,7 +19,7 @@ function getConfig_() {
 
 const COLUMNS = [
   'timestamp', 'activity', 'temp', 'feelsLike', 'conditions', 'wind', 'humidity',
-  'timeOfDay', 'teeTime', 'lowTemp', 'highTemp', 'wetGround',
+  'timeOfDay', 'lowTemp', 'highTemp', 'wetGround',
   'outerwear', 'topLong', 'topShort', 'bottoms', 'head', 'hands', 'feet',
   'notes', 'courseName'
 ];

@@ -10,9 +10,7 @@ struct ActivityWeatherSection: View {
                 ForEach(activity.activityWeatherFields, id: \.self) { field in
                     switch field {
                     case .timeOfDay:
-                        InlineTextField("Time of Run", key: "timeOfDay", placeholder: "e.g. 3:00 PM", values: $values)
-                    case .teeTime:
-                        InlineTextField("Tee Time", key: "teeTime", placeholder: "e.g. 9:00 AM", values: $values)
+                        InlineTextField(activity.timeOfDayLabel, key: "timeOfDay", placeholder: activity.timeOfDayPlaceholder, values: $values)
                     case .lowTemp:
                         InlineTextField("Low Temp (°F)", key: "lowTemp", placeholder: "e.g. 45", values: $values)
                             .keyboardType(.numberPad)

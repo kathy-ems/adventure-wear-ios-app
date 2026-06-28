@@ -9,7 +9,6 @@ struct OutfitEntry: Identifiable {
     let wind: Double?
     let humidity: Double?
     let timeOfDay: String?
-    let teeTime: String?
     let lowTemp: Double?
     let highTemp: Double?
     let wetGround: String?
@@ -48,7 +47,6 @@ extension OutfitEntry {
         self.wind = Double(dict["wind"] ?? "")
         self.humidity = Double(dict["humidity"] ?? "")
         self.timeOfDay = dict["timeOfDay"].nonEmpty
-        self.teeTime = dict["teeTime"].nonEmpty
         self.lowTemp = Double(dict["lowTemp"] ?? "")
         self.highTemp = Double(dict["highTemp"] ?? "")
         self.wetGround = dict["wetGround"].nonEmpty

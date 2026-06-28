@@ -27,6 +27,6 @@ targets:
       # Replace with your Apple Developer Team ID (found at developer.apple.com)
       DEVELOPMENT_TEAM: ""
       # Replace with your bundle ID registered at developer.apple.com (must have WeatherKit enabled)
-      PRODUCT_BUNDLE_IDENTIFIER: com.adventurewear.app
+      PRODUCT_BUNDLE_IDENTIFIER: com.kathyems.adventurewear
       SWIFT_VERSION: "5.9"
       CODE_SIGN_STYLE: Automatic

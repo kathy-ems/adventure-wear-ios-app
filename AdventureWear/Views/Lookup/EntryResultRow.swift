@@ -69,7 +69,6 @@ struct EntryResultRow: View {
     @ViewBuilder
     private var contextLine: some View {
         let parts: [String] = [
-            entry.teeTime.map { "Tee: \($0)" },
             entry.timeOfDay,
             entry.courseName,
             entry.humidity.map { "Humidity \(Int($0.rounded()))%" },

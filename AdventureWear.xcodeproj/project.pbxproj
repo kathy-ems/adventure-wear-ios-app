@@ -32,6 +32,7 @@
 		116E0C8D141D9A214796EE8C /* AdventureWear.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = AdventureWear.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F67D42ADB4B0FD649830B6 /* LookupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookupViewModel.swift; sourceTree = "<group>"; };
 		1CD073B7ADCFA4DEAB4B0BF3 /* CurrentWeatherCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherCard.swift; sourceTree = "<group>"; };
+		291CFC03D682A4F65258DE8F /* .extra */ = {isa = PBXFileReference; path = .extra; sourceTree = "<group>"; };
 		3AFA8302BCE4519D5FB8CC9B /* ClothingFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingFormView.swift; sourceTree = "<group>"; };
 		40112E1951AE86FF645A5421 /* OutfitEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutfitEntry.swift; sourceTree = "<group>"; };
 		4CF362DE317EBFF86FDCFBCF /* SheetsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetsService.swift; sourceTree = "<group>"; };
@@ -139,6 +140,7 @@
 		FA69184D020DDF0BB0761B30 /* AdventureWear */ = {
 			isa = PBXGroup;
 			children = (
+				291CFC03D682A4F65258DE8F /* .extra */,
 				9FDCC3545DBDA5934EA1C781 /* AdventureWear.entitlements */,
 				FB82AA0C4EE13C0EEA834997 /* AdventureWearApp.swift */,
 				BF63F698853E724B072FBE08 /* ContentView.swift */,
@@ -270,7 +272,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.adventurewear.app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kathyems.adventurewear;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.9;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -354,7 +356,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.adventurewear.app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kathyems.adventurewear;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.9;
 				TARGETED_DEVICE_FAMILY = "1,2";
