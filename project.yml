@@ -1,0 +1,32 @@
+name: AdventureWear
+
+options:
+  deploymentTarget:
+    iOS: "16.0"
+
+targets:
+  AdventureWear:
+    type: application
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources:
+      - path: AdventureWear
+    info:
+      path: AdventureWear/Info.plist
+      properties:
+        NSLocationWhenInUseUsageDescription: "Adventure Wear uses your location to fetch current weather conditions for logging and lookup."
+        UILaunchScreen: {}
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+          UISceneConfigurations: {}
+    entitlements:
+      path: AdventureWear/AdventureWear.entitlements
+    dependencies:
+      - sdk: CoreLocation.framework
+    settings:
+      # Replace with your Apple Developer Team ID (found at developer.apple.com)
+      DEVELOPMENT_TEAM: ""
+      # Replace with your bundle ID registered at developer.apple.com (must have WeatherKit enabled)
+      PRODUCT_BUNDLE_IDENTIFIER: com.adventurewear.app
+      SWIFT_VERSION: "5.9"
+      CODE_SIGN_STYLE: Automatic

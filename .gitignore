@@ -1,0 +1,15 @@
+# Secrets — copy Secrets.example.plist to Secrets.plist and fill in real values
+AdventureWear/Secrets.plist
+
+# Xcode
+*.xcuserstate
+xcuserdata/
+DerivedData/
+*.xccheckout
+*.moved-aside
+
+# macOS
+.DS_Store
+
+
+.extra

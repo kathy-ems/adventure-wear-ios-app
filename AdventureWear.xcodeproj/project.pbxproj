@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		052B40ADD75AA16505E4F0DD /* WeatherSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6249E0FBBF211FD483FEB5D5 /* WeatherSnapshot.swift */; };
+		08F09EA939ED37CCF7CE52A2 /* SheetsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF362DE317EBFF86FDCFBCF /* SheetsService.swift */; };
+		0F0D6A4931F2DF5A4CFA587A /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AD701831CDA3A1682E4A40 /* Activity.swift */; };
+		13560E04DA7E2F509365431B /* Secrets.plist in Resources */ = {isa = PBXBuildFile; fileRef = CA0CB594E566BD5D0592F8DC /* Secrets.plist */; };
+		182980B7EF51CFC01779B8E2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE18C5E9ECB47F29B9C863E /* CoreLocation.framework */; };
+		18643426C24C02358C7C5A8F /* CurrentWeatherCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD073B7ADCFA4DEAB4B0BF3 /* CurrentWeatherCard.swift */; };
+		19732092365405D91AD10EF7 /* LookupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F67D42ADB4B0FD649830B6 /* LookupViewModel.swift */; };
+		20D8448DDEBF3D2B52B66A17 /* Secrets.example.plist in Resources */ = {isa = PBXBuildFile; fileRef = 847E221D083BE54AC20DBFEF /* Secrets.example.plist */; };
+		2B1100B73339D4A7068C2A30 /* EntryResultRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8DBC004677445354DBBBAC /* EntryResultRow.swift */; };
+		364654256ACABFF946903FB0 /* ActivityWeatherSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E339FD820C5F68FD81689DE1 /* ActivityWeatherSection.swift */; };
+		3A60BB58FF647893FD965A8D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF63F698853E724B072FBE08 /* ContentView.swift */; };
+		3FDDCA13249FDC7D571C3A05 /* LogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7FEB95D89DC4CD772D7F8 /* LogView.swift */; };
+		626C7EAFC8ADED447366D88E /* LookupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768A3EC290000F6954921486 /* LookupView.swift */; };
+		87AD47097DE8B79C7E43AC62 /* LogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66496DC4E1AAF7EB3192231F /* LogViewModel.swift */; };
+		8DA0365EAC4E91D292BE15C0 /* AdventureWearApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB82AA0C4EE13C0EEA834997 /* AdventureWearApp.swift */; };
+		AB2CA2E88C689DABAFCCB679 /* OutfitEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40112E1951AE86FF645A5421 /* OutfitEntry.swift */; };
+		AEB6C6A0266F6CF8224B65C8 /* ClothingFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFA8302BCE4519D5FB8CC9B /* ClothingFormView.swift */; };
+		D43001E03EE3F29F31910225 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C6252A4D4ABFF38447F7EA /* WeatherService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07AD701831CDA3A1682E4A40 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		116E0C8D141D9A214796EE8C /* AdventureWear.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = AdventureWear.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F67D42ADB4B0FD649830B6 /* LookupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookupViewModel.swift; sourceTree = "<group>"; };
+		1CD073B7ADCFA4DEAB4B0BF3 /* CurrentWeatherCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherCard.swift; sourceTree = "<group>"; };
+		3AFA8302BCE4519D5FB8CC9B /* ClothingFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingFormView.swift; sourceTree = "<group>"; };
+		40112E1951AE86FF645A5421 /* OutfitEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutfitEntry.swift; sourceTree = "<group>"; };
+		4CF362DE317EBFF86FDCFBCF /* SheetsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetsService.swift; sourceTree = "<group>"; };
+		4FE18C5E9ECB47F29B9C863E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		5F9C2A5D6484D4777D9820D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6249E0FBBF211FD483FEB5D5 /* WeatherSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherSnapshot.swift; sourceTree = "<group>"; };
+		66496DC4E1AAF7EB3192231F /* LogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogViewModel.swift; sourceTree = "<group>"; };
+		768A3EC290000F6954921486 /* LookupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookupView.swift; sourceTree = "<group>"; };
+		847E221D083BE54AC20DBFEF /* Secrets.example.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Secrets.example.plist; sourceTree = "<group>"; };
+		9FDCC3545DBDA5934EA1C781 /* AdventureWear.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AdventureWear.entitlements; sourceTree = "<group>"; };
+		AE8DBC004677445354DBBBAC /* EntryResultRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryResultRow.swift; sourceTree = "<group>"; };
+		B0C6252A4D4ABFF38447F7EA /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		BF63F698853E724B072FBE08 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CA0CB594E566BD5D0592F8DC /* Secrets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Secrets.plist; sourceTree = "<group>"; };
+		D0E7FEB95D89DC4CD772D7F8 /* LogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogView.swift; sourceTree = "<group>"; };
+		E339FD820C5F68FD81689DE1 /* ActivityWeatherSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityWeatherSection.swift; sourceTree = "<group>"; };
+		FB82AA0C4EE13C0EEA834997 /* AdventureWearApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventureWearApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DBB4BDD74C87370A01AB92C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182980B7EF51CFC01779B8E2 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		250B8972A69206DD9C20778C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4CF362DE317EBFF86FDCFBCF /* SheetsService.swift */,
+				B0C6252A4D4ABFF38447F7EA /* WeatherService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3C7418DBDE1801588C0102F2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				07AD701831CDA3A1682E4A40 /* Activity.swift */,
+				40112E1951AE86FF645A5421 /* OutfitEntry.swift */,
+				6249E0FBBF211FD483FEB5D5 /* WeatherSnapshot.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9CB7DD1403660A7017E0A794 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				66496DC4E1AAF7EB3192231F /* LogViewModel.swift */,
+				18F67D42ADB4B0FD649830B6 /* LookupViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B1976FA7F5876B59E5964ADC /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				E339FD820C5F68FD81689DE1 /* ActivityWeatherSection.swift */,
+				3AFA8302BCE4519D5FB8CC9B /* ClothingFormView.swift */,
+				D0E7FEB95D89DC4CD772D7F8 /* LogView.swift */,
+			);
+			path = Log;
+			sourceTree = "<group>";
+		};
+		B38EF6BFC65E25BA300DB1CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				116E0C8D141D9A214796EE8C /* AdventureWear.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E70A2DCC8BCFBA8B481299F6 /* Lookup */ = {
+			isa = PBXGroup;
+			children = (
+				1CD073B7ADCFA4DEAB4B0BF3 /* CurrentWeatherCard.swift */,
+				AE8DBC004677445354DBBBAC /* EntryResultRow.swift */,
+				768A3EC290000F6954921486 /* LookupView.swift */,
+			);
+			path = Lookup;
+			sourceTree = "<group>";
+		};
+		ED3167CF0A22E59DD68B2D60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FE18C5E9ECB47F29B9C863E /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8136DE365CC541574859B15 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B1976FA7F5876B59E5964ADC /* Log */,
+				E70A2DCC8BCFBA8B481299F6 /* Lookup */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FA69184D020DDF0BB0761B30 /* AdventureWear */ = {
+			isa = PBXGroup;
+			children = (
+				9FDCC3545DBDA5934EA1C781 /* AdventureWear.entitlements */,
+				FB82AA0C4EE13C0EEA834997 /* AdventureWearApp.swift */,
+				BF63F698853E724B072FBE08 /* ContentView.swift */,
+				5F9C2A5D6484D4777D9820D6 /* Info.plist */,
+				847E221D083BE54AC20DBFEF /* Secrets.example.plist */,
+				CA0CB594E566BD5D0592F8DC /* Secrets.plist */,
+				3C7418DBDE1801588C0102F2 /* Models */,
+				250B8972A69206DD9C20778C /* Services */,
+				9CB7DD1403660A7017E0A794 /* ViewModels */,
+				F8136DE365CC541574859B15 /* Views */,
+			);
+			path = AdventureWear;
+			sourceTree = "<group>";
+		};
+		FC9E234D2FFEA9F941E7AF4B = {
+			isa = PBXGroup;
+			children = (
+				FA69184D020DDF0BB0761B30 /* AdventureWear */,
+				ED3167CF0A22E59DD68B2D60 /* Frameworks */,
+				B38EF6BFC65E25BA300DB1CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD249B16C51D057F3B91EC25 /* AdventureWear */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9AD280FB1924CFB8443A454 /* Build configuration list for PBXNativeTarget "AdventureWear" */;
+			buildPhases = (
+				268098D244E2BA350D81C4C1 /* Sources */,
+				7A2EB6E593EE0915A5812225 /* Resources */,
+				0DBB4BDD74C87370A01AB92C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdventureWear;
+			packageProductDependencies = (
+			);
+			productName = AdventureWear;
+			productReference = 116E0C8D141D9A214796EE8C /* AdventureWear.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D02457BCFA9C955725A583E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					DD249B16C51D057F3B91EC25 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C218A2F7AA4778E0D6CFEF6A /* Build configuration list for PBXProject "AdventureWear" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = FC9E234D2FFEA9F941E7AF4B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B38EF6BFC65E25BA300DB1CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD249B16C51D057F3B91EC25 /* AdventureWear */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A2EB6E593EE0915A5812225 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20D8448DDEBF3D2B52B66A17 /* Secrets.example.plist in Resources */,
+				13560E04DA7E2F509365431B /* Secrets.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		268098D244E2BA350D81C4C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F0D6A4931F2DF5A4CFA587A /* Activity.swift in Sources */,
+				364654256ACABFF946903FB0 /* ActivityWeatherSection.swift in Sources */,
+				8DA0365EAC4E91D292BE15C0 /* AdventureWearApp.swift in Sources */,
+				AEB6C6A0266F6CF8224B65C8 /* ClothingFormView.swift in Sources */,
+				3A60BB58FF647893FD965A8D /* ContentView.swift in Sources */,
+				18643426C24C02358C7C5A8F /* CurrentWeatherCard.swift in Sources */,
+				2B1100B73339D4A7068C2A30 /* EntryResultRow.swift in Sources */,
+				3FDDCA13249FDC7D571C3A05 /* LogView.swift in Sources */,
+				87AD47097DE8B79C7E43AC62 /* LogViewModel.swift in Sources */,
+				626C7EAFC8ADED447366D88E /* LookupView.swift in Sources */,
+				19732092365405D91AD10EF7 /* LookupViewModel.swift in Sources */,
+				AB2CA2E88C689DABAFCCB679 /* OutfitEntry.swift in Sources */,
+				08F09EA939ED37CCF7CE52A2 /* SheetsService.swift in Sources */,
+				D43001E03EE3F29F31910225 /* WeatherService.swift in Sources */,
+				052B40ADD75AA16505E4F0DD /* WeatherSnapshot.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8174FCDBEDCFE87043F90182 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AdventureWear/AdventureWear.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = AdventureWear/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adventurewear.app;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A62401CBDA79F322F7B67579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B051F5BC5FCC0F67C03EB764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AdventureWear/AdventureWear.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = AdventureWear/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adventurewear.app;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B97900AF65330BBAAF432D09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9AD280FB1924CFB8443A454 /* Build configuration list for PBXNativeTarget "AdventureWear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B051F5BC5FCC0F67C03EB764 /* Debug */,
+				8174FCDBEDCFE87043F90182 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C218A2F7AA4778E0D6CFEF6A /* Build configuration list for PBXProject "AdventureWear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A62401CBDA79F322F7B67579 /* Debug */,
+				B97900AF65330BBAAF432D09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D02457BCFA9C955725A583E /* Project object */;
+}
