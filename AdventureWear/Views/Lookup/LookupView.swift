@@ -33,11 +33,20 @@ struct LookupView: View {
                         ProgressView("Searching…")
                         Spacer()
                     } else if viewModel.results.isEmpty {
-                        ContentUnavailableView(
-                            "No Matches",
-                            systemImage: "tshirt",
-                            description: Text("No \(viewModel.selectedActivity.rawValue) entries within 8° of the selected temperature.")
-                        )
+                        VStack(spacing: 12) {
+                            Spacer()
+                            Image(systemName: "tshirt")
+                                .font(.largeTitle)
+                                .foregroundStyle(.secondary)
+                            Text("No Matches")
+                                .font(.headline)
+                            Text("No \(viewModel.selectedActivity.rawValue) entries within 8° of the selected temperature.")
+                                .font(.subheadline)
+                                .foregroundStyle(.secondary)
+                                .multilineTextAlignment(.center)
+                                .padding(.horizontal)
+                            Spacer()
+                        }
                     } else {
                         List(viewModel.results) { entry in
                             EntryResultRow(entry: entry)
@@ -48,9 +57,9 @@ struct LookupView: View {
                 }
             }
             .navigationTitle("Lookup")
-            .onChange(of: viewModel.selectedActivity) { _, _ in triggerSearch() }
-            .onChange(of: viewModel.tempOverride)     { _, _ in triggerSearch() }
-            .onChange(of: weatherService.snapshot)    { _, snap in
+            .onChange(of: viewModel.selectedActivity) { _ in triggerSearch() }
+            .onChange(of: viewModel.tempOverride)     { _ in triggerSearch() }
+            .onChange(of: weatherService.snapshot)    { snap in
                 guard viewModel.tempOverride.isEmpty else { return }
                 if let temp = snap?.temp { Task { await viewModel.search(currentTemp: temp) } }
             }

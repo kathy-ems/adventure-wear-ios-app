@@ -37,6 +37,13 @@ private struct InlineTextField: View {
     let placeholder: String
     @Binding var values: [String: String]
 
+    init(_ label: String, key: String, placeholder: String, values: Binding<[String: String]>) {
+        self.label = label
+        self.key = key
+        self.placeholder = placeholder
+        self._values = values
+    }
+
     var body: some View {
         HStack {
             Text(label)

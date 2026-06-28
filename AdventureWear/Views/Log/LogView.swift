@@ -14,7 +14,7 @@ struct LogView: View {
                 submitSection
             }
             .navigationTitle("Log Outfit")
-            .onChange(of: viewModel.selectedActivity) { _, _ in viewModel.resetForm() }
+            .onChange(of: viewModel.selectedActivity) { _ in viewModel.resetForm() }
             .alert("Saved!", isPresented: $viewModel.showSuccess) {
                 Button("OK") {}
             }

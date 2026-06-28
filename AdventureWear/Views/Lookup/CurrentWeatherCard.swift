@@ -30,7 +30,7 @@ struct CurrentWeatherCard: View {
                         VStack(alignment: .leading, spacing: 0) {
                             Text(tempOverride.isEmpty ? w.tempDisplay : "\(tempOverride)°F")
                                 .font(.largeTitle.bold())
-                                .foregroundStyle(tempOverride.isEmpty ? .primary : .orange)
+                                .foregroundStyle(tempOverride.isEmpty ? Color.primary : Color.orange)
                             if !tempOverride.isEmpty {
                                 Text("tap to edit").font(.caption2).foregroundStyle(.orange)
                             } else {
